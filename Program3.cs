@@ -15,10 +15,7 @@
         }
         if (isPrime) result.Add(i);       
     }
-    foreach (int i in result)
-    {
-        Console.WriteLine(i);
-    }
+    
     return result.ToArray<int>();
 
 }
